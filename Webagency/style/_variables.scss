@@ -1,0 +1,185 @@
+//COLOR
+$primary-color: #FFA149;
+$dark-theme: #222222;
+$secondary-dark-theme: #333333;
+$paragraph-text: #555555;
+$secondary-paragraph-text: #777777;
+$grey: #AAAAAA;
+$light-grey: #DDDDDD;
+$grey-background: #F9F9F9;
+
+//LARGE TYPHOGRAPHY 
+@mixin large54 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 140%;
+    color: #333333;
+}
+
+@mixin large48 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 160%;
+    color: #333333;
+}
+
+@mixin large32 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 140%;
+    color: #333333;
+}
+
+@mixin large24 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 140%;
+    color: #333333;
+}
+
+//HEADING TYPHOGRAPHY
+@mixin heading1 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 170%;
+    color: #333333;
+}
+
+@mixin heading2 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 170%;
+    color: #333333;
+}
+
+@mixin heading3 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 170%;
+    color: #333333;
+}
+
+@mixin heading4 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 170%;
+    color: #333333;
+}
+
+@mixin heading5 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 170%;
+    color: #333333;
+}
+
+@mixin heading6 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 170%;
+    color: #333333;
+}
+
+@mixin heading7 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 170%;
+    color: #333333;
+}
+
+//TITLE TYPHOGRAPHY
+
+@mixin title16 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 170%;    
+    color: #333333;
+}
+
+@mixin title14 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 170%;    
+    color: #333333;
+}
+
+@mixin title12 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 170%;    
+    color: #333333;
+}
+
+//TEXT TYPHOGRAPHY
+@mixin text18 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+    color: #333333;
+}
+
+@mixin text16 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 170%;
+    color: #333333;
+}
+
+@mixin text14 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 170%;
+    color: #333333;
+}
+
+@mixin text12 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 170%;
+    color: #333333;
+}
+
+@mixin text10 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 170%;
+    color: #333333;
+}

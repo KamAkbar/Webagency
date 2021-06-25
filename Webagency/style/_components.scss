@@ -1,0 +1,83 @@
+//WEBTYPE
+.webtype{
+    &__title{
+        @include heading5;
+        margin-top: 50px;
+    }
+}
+
+//PRIMARY BUTTON
+.btn-p{
+    width: 200px;
+    height: 60px;
+    background: $primary-color;
+    @include heading6;
+    color: #fff;
+    border: none;
+    padding: 0 16px 0 16px;
+
+}
+
+//SECONDARY BUTTON
+.btn-s{
+    width: 200px;
+    height: 60px;
+    background: #fff;
+    @include heading6;
+    color: $primary-color;
+    border-color: $primary-color solid 2px;
+    padding: 0 16px 0 16px;
+}
+
+//SMALL BUTTON
+.small-btn{
+    width: 148px;
+    height: 48px;
+    background: $primary-color;
+    @include heading6;
+    color: #fff;
+    border: none;
+    padding: 0 16px 0 16px;
+}
+
+// SLIDE BUTTON DISABLE
+.slide-btn-disable{
+    background-color: $light-grey;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+//SLIDE BUTTON ACTIVE
+.slide-btn-active{
+    background-color: $primary-color;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__vector{
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+}
+
+//FEATURES
+.features{
+    &-i{
+        &__icon{
+
+        }
+    }
+    &-details{
+        &__title{
+
+        }
+        &__info{
+            
+        }
+    }
+}
